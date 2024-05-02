@@ -26,6 +26,6 @@ stages:
         command: 'buildAndPush'
         dockerfile: '$(Build.SourcesDirectory)/app/Dockerfile'
         containerRegistry: 'Docker_hub_cyrille'
-        repository: 'test_marc'
+        repository: 'test_azure'
         tags: |
           $(tag)
