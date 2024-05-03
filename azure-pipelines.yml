@@ -27,5 +27,5 @@ stages:
         dockerfile: '$(Build.SourcesDirectory)/app/Dockerfile'
         containerRegistry: 'Docker_hub_cyrille'
         repository: 'cyrilletual/test_azure'
-        tags: latest |
+        tags: |
           $(tag)
